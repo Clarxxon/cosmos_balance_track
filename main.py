@@ -1,13 +1,10 @@
 import logging
 import os
 from time import sleep
-
-import prometheus_client
 import requests
 from prometheus_client import start_http_server, Gauge
 
 from settings import WALLETS
-import json
 
 BALANCE = balance = Gauge('balance', 'Available balance', ['node'])
 
