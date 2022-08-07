@@ -3,7 +3,7 @@ Simple balance tracker with prometheus integration
 
 ### Getting starteg
 Edit chains info in settings.py file:
-`
+```
 WALLETS = [
     {
         "chain": "osmosis", #from chain-registry ID https://github.com/cosmos/chain-registry
@@ -12,9 +12,9 @@ WALLETS = [
         "decimals": 6 # 10^6 by default
     },
 ]
-`
+```
 
 Run without using Docker:
-`pip install -r requirements
-python main.py`
+```pip install -r requirements
+python main.py```
 
