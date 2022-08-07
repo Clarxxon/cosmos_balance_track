@@ -15,6 +15,8 @@ WALLETS = [
 ```
 
 Run without using Docker:
-```pip install -r requirements
-python main.py```
+```
+pip install -r requirements
+python main.py
+```
 
