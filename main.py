@@ -6,7 +6,7 @@ from prometheus_client import start_http_server, Gauge
 
 from settings import WALLETS
 
-BALANCE = balance = Gauge('balance', 'Available balance', ['node'])
+BALANCE = balance = Gauge('restake_balance', 'Available balance', ['node'])
 
 def get_balance(node_addr,wallet,denom):
     r= requests.get(
